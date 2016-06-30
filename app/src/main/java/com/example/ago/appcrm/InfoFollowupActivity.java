@@ -60,8 +60,8 @@ public class InfoFollowupActivity extends AppCompatActivity {
             confirm_btn.setText("确认添加");
             currentFollowup = new Followup();
         } else {
-            currentMode = "add";
-            confirm_btn.setText("确认添加");
+            currentMode = "modify";
+            confirm_btn.setText("确认修改");
 
             content_field.setText(currentFollowup.getContent());
             remarks_field.setText(currentFollowup.getFollowupremarks());
