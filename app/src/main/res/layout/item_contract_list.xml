@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="100dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/contract_avatar"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重要合同"
+        android:id="@+id/contract_role"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/contract_avatar"
+        android:layout_toEndOf="@id/contract_avatar"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="合同1"
+        android:id="@+id/contract_name"
+        android:layout_below="@id/contract_role"
+        android:layout_toRightOf="@id/contract_avatar"
+        android:layout_toEndOf="@id/contract_avatar"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000元"
+        android:id="@+id/contract_price"
+        android:layout_below="@id/contract_name"
+        android:layout_toRightOf="@id/contract_avatar"
+        android:layout_toEndOf="@id/contract_avatar"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="南京大学"
+        android:id="@+id/contract_customer"
+        android:layout_below="@id/contract_name"
+        android:layout_toRightOf="@id/contract_price"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
